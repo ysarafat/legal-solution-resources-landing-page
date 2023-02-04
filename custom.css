@@ -1,0 +1,97 @@
+/* font family */
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+.font__secondary {
+    font-family: 'EB Garamond', serif !important;
+}
+/* custom button style */
+.btn__bg {
+    background-color: #B68C5A !important;
+    border: none;
+}
+.btn__bg:hover {
+    background-color: #b37b36 !important;
+}
+.btn__bg:focus {
+    background-color: #707070 !important;
+}
+/* custom text style*/
+.text__secondary {
+    color: #707070 !important;
+}
+.font__size {
+    font-size: 4.5rem;
+}
+/* banner bg */
+.banner__bg {
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0.356)), url('./images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+/* custom padding */
+.pdding__y {
+    padding-top: 6.5rem !important;
+    padding-bottom: 6.5rem !important;
+}
+/* input form */
+.input {
+    max-width: 500px;
+    height: 64px;
+    border: none;
+    outline: none;
+}
+.input-contact {
+    width: 100%;
+    height: 64px;
+    border: none;
+    outline: none;
+}
+.btn__search {
+    height: 64px;
+    border: none;
+}
+/* card bg */
+.bg__gr {
+    background-image: linear-gradient(rgba(187, 181, 181, 0.39), rgba(255, 255, 255, 0.37));
+}
+@media only screen and (max-width:576px) {
+    .border__sm__none {
+        border: none !important;
+    }
+}
+/* testimonial */
+.testimonial {
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.623)), url('./images/slider-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 6rem;
+    padding-bottom: 8.5rem;
+}
+.tm__2 {
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.456), rgba(0, 0, 0, 0.623)), url('./images/slider-2.jpg');
+}
+.tm__3 {
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.456), rgba(0, 0, 0, 0.623)), url('./images/slider-3.jpg');
+}
+.accordion-button:not(.collapsed) {
+    color: #ffffff;
+    background-color: #b37b36;
+}
+/* faq custom style */
+.accordion-button {
+    height: 100px;
+}
+/* subscribe form  */
+.ms__subscribe {
+    margin-left: -10px;
+    max-width: 100%;
+}
+.input__subscribe {
+    width: 100%;
+    max-width: 300px;
+    height: 64px;
+    border: none;
+    outline: none;
+}
